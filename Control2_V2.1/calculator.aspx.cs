@@ -41,7 +41,7 @@ namespace Control2_V2._1
             Calculadora op = this.SetearNumeros("suma");
             if (op != null)
             {
-                this.ImprimirResultado(op.MostrarSuma().ToString());
+                this.ImprimirResultado(op.MostrarSuma().ToString(), '+', op.GetNum1(), op.GetNum2());
             }
         }
 
@@ -79,7 +79,7 @@ namespace Control2_V2._1
             Calculadora op = this.SetearNumeros("resta");
             if (op != null)
             {
-                this.ImprimirResultado(op.MostrarResta().ToString());
+                this.ImprimirResultado(op.MostrarResta().ToString(), '-', op.GetNum1(), op.GetNum2());
             }
         }
 
@@ -88,7 +88,7 @@ namespace Control2_V2._1
             Calculadora op = this.SetearNumeros("multi");
             if (op != null)
             {
-                this.ImprimirResultado(op.MostrarMultiplicacion().ToString());
+                this.ImprimirResultado(op.MostrarMultiplicacion().ToString(), '*', op.GetNum1(), op.GetNum2());
             }
         }
 
@@ -97,13 +97,13 @@ namespace Control2_V2._1
             Calculadora op = this.SetearNumeros("division");
             if (op != null)
             {
-                this.ImprimirResultado(op.MostrarDivision().ToString());
+                this.ImprimirResultado(op.MostrarDivision().ToString(), '/', op.GetNum1(), op.GetNum2());
             }
         }
 
-        private void ImprimirResultado(string resultado)
+        private void ImprimirResultado(string resultado, char operacion, int n1, int n2)
         {
-            lbl_result.Text = "El resultado de la operación es: "+resultado;
+            lbl_result.Text = "El resultado de la operación es: " + n1 + operacion + n2 +" = "  +resultado;
         }
 
         protected void link_login_Click(object sender, EventArgs e)

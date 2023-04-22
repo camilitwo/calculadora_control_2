@@ -4,3 +4,9 @@ c:\users\camil\onedrive\documentos\visual studio 2015\Projects\Control2_V2.1\Con
 c:\users\camil\onedrive\documentos\visual studio 2015\Projects\Control2_V2.1\Control2_V2.1\obj\Debug\Control2_V2.1.dll
 c:\users\camil\onedrive\documentos\visual studio 2015\Projects\Control2_V2.1\Control2_V2.1\obj\Debug\Control2_V2.1.pdb
 c:\users\camil\onedrive\documentos\visual studio 2015\Projects\Control2_V2.1\Control2_V2.1\obj\Debug\Control2_V2.1.csprojResolveAssemblyReference.cache
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\bin\Control2_V2.1.dll.config
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\bin\Control2_V2.1.dll
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\bin\Control2_V2.1.pdb
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\obj\Debug\Control2_V2.1.csprojResolveAssemblyReference.cache
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\obj\Debug\Control2_V2.1.dll
+C:\Users\camil\OneDrive\Documentos\GitHub\calculadora_control_2\Control2_V2.1\obj\Debug\Control2_V2.1.pdb
